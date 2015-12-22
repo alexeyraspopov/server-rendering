@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import Express from 'express';
+import Morgan from 'morgan';
 import App from 'components/App';
 
 const app = Express();
@@ -16,10 +17,11 @@ function layout(markup) {
 	<main>${markup}</main>
 	<script src="bundle.js"></script>
 </body>
-</html>
-	`;
+</html>`;
 }
 
+app.use(Morgan('common'));
 app.use(Express.static('.'));
 app.get('/*', (req, res) => res.send(layout(ReactDOMServer.renderToString(<App />))));
+
 app.listen(3000);
