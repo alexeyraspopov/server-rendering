@@ -1,4 +1,4 @@
-import {ReduceStore} from 'flux/utils';
+import ReduceStore from 'flux/lib/FluxReduceStore';
 import Dispatcher from 'lib/Dispatcher';
 
 class CounterStore extends ReduceStore {

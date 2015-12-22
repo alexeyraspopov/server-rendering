@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from 'flux/utils';
+import Container from 'flux/lib/FluxContainer';
 import Counter from 'components/Counter';
 import CounterStore from 'stores/CounterStore';
 import * as CounterActions from 'actions/CounterActions';
