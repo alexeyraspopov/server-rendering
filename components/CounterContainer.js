@@ -16,7 +16,10 @@ class CounterContainer extends React.Component {
 	}
 
 	render() {
-		return <Counter count={this.state.count} onIncrement={CounterActions.increment} />;
+		return <Counter
+			count={this.state.count}
+			onIncrement={CounterActions.increment}
+			onReset={() => CounterActions.restore(0)}/>;
 	}
 }
 

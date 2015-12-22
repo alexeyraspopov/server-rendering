@@ -5,7 +5,7 @@ export function increment() {
 }
 
 export function restore(state) {
-	if (state) {
+	if (state !== null) {
 		Dispatcher.dispatch({type: 'COUNTER_RESTORED', value: parseInt(state)});
 	}
 }
