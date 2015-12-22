@@ -1,7 +1,7 @@
 import Dispatcher from 'lib/Dispatcher';
 
 export function increment() {
-	Dispatcher.dispatch({type: 'INCREMENTED'});
+	Dispatcher.dispatch({type: 'COUNTER_INCREMENTED'});
 }
 
 export function restore(state) {

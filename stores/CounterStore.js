@@ -8,7 +8,7 @@ class CounterStore extends ReduceStore {
 
 	reduce(state, action) {
 		switch (action.type) {
-		case 'INCREMENTED':
+		case 'COUNTER_INCREMENTED':
 			return state + 1;
 		case 'COUNTER_RESTORED':
 			return action.value;
