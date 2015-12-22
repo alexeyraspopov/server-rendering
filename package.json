@@ -1,7 +1,8 @@
 {
   "name": "server-rendering",
   "scripts": {
-    "start": "bash ./start.sh"
+    "start": "bash ./start.sh",
+    "bundle": "bash ./bundle.sh"
   },
   "devDependencies": {
     "babel": "~5.8.34",
