@@ -11,7 +11,7 @@ class CounterContainer extends React.Component {
 
 	static calculateState() {
 		return {
-			count: CounterStore.getState()
+			count: CounterStore.getState(),
 		};
 	}
 
