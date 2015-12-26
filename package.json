@@ -1,5 +1,5 @@
 {
-  "name": "server-rendering",
+  "name": "visualize",
   "scripts": {
     "start": "bash scripts/start.sh",
     "bundle": "bash scripts/bundle.sh"

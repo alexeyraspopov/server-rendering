@@ -1,4 +1,4 @@
-# Server Rendering
+# Visualize
 
 An example of React/Flux app with server-side rendering.
 
