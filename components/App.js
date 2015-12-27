@@ -3,9 +3,9 @@ import CounterContainer from 'components/CounterContainer';
 
 export default function App() {
 	return (
-		<article>
+		<section>
 			<h1>Hello</h1>
 			<CounterContainer />
-		</article>
+		</section>
 	);
 }
