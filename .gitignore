@@ -1,4 +1,5 @@
 node_modules/
 bundle/
 bundle.js
+vendor.js
 npm-debug.log

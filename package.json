@@ -3,7 +3,7 @@
   "scripts": {
     "start": "bash scripts/start.sh",
     "bundle": "bash scripts/bundle.sh",
-    "clean": "rm -rf bundle/ bundle.js"
+    "clean": "rm -rf bundle/ bundle.js vendor.js"
   },
   "devDependencies": {
     "babel": "~5.8.34",

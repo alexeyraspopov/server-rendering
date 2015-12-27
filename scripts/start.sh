@@ -2,4 +2,5 @@ export NODE_PATH=node_modules:.
 export NODE_ENV=development
 
 nodemon --exec babel-node -- index.node.js &
-watchify -e index.web.js -t babelify -g envify -o bundle.js -v
+browserify -r react -r react-dom -o vendor.js
+watchify -e index.web.js -x react -x react-dom -t babelify -g envify -o bundle.js -v

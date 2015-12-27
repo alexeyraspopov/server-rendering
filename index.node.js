@@ -15,6 +15,7 @@ function layout(markup) {
 </head>
 <body>
 	<main>${markup}</main>
+	<script src="vendor.js"></script>
 	<script src="bundle.js"></script>
 </body>
 </html>`;
