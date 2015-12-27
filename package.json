@@ -2,7 +2,8 @@
   "name": "visualize",
   "scripts": {
     "start": "bash scripts/start.sh",
-    "bundle": "bash scripts/bundle.sh"
+    "bundle": "bash scripts/bundle.sh",
+    "clean": "rm -rf bundle/ bundle.js"
   },
   "devDependencies": {
     "babel": "~5.8.34",
