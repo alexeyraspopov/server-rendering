@@ -1,5 +1,5 @@
 import React from 'react';
-import CounterContainer from 'components/CounterContainer';
+import CounterContainer from 'Counter/CounterContainer';
 
 export default function App() {
 	return (

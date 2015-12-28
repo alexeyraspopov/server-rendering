@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import Express from 'express';
 import Morgan from 'morgan';
-import App from 'components/App';
+import App from 'App/App';
 
 const app = Express();
 

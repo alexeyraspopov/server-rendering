@@ -1,8 +1,8 @@
 import React from 'react';
 import Container from 'flux/lib/FluxContainer';
-import Counter from 'components/Counter';
-import CounterStore from 'stores/CounterStore';
-import * as CounterActions from 'actions/CounterActions';
+import Counter from './Counter';
+import CounterStore from './CounterStore';
+import * as CounterActions from './CounterActions';
 
 class CounterContainer extends React.Component {
 	static getStores() {
