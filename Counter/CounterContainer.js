@@ -19,7 +19,7 @@ class CounterContainer extends React.Component {
 		return <Counter
 			count={this.state.count}
 			onIncrement={CounterActions.increment}
-			onReset={() => CounterActions.restore(0)}/>;
+			onReset={() => CounterActions.update(0)}/>;
 	}
 }
 

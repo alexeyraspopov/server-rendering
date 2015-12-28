@@ -10,7 +10,7 @@ class CounterStore extends ReduceStore {
 		switch (action.type) {
 		case 'COUNTER_INCREMENTED':
 			return state + 1;
-		case 'COUNTER_RESTORED':
+		case 'COUNTER_UPDATED':
 			return action.value;
 		default:
 			return state;
