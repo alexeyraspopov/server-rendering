@@ -15,6 +15,10 @@
     "watchify": "~3.6.1"
   },
   "dependencies": {
+    "d3-array": "~0.6.1",
+    "d3-random": "~0.1.1",
+    "d3-scale": "~0.4.0",
+    "d3-shape": "~0.2.2",
     "express": "~4.13.3",
     "flux": "~2.1.1",
     "morgan": "~1.6.1",
