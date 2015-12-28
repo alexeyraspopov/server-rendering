@@ -27,6 +27,6 @@ function layout(markup, data) {
 
 app.use(Morgan('common'));
 app.use(Express.static('.'));
-app.get('/*', (req, res) => res.send(layout(ReactDOMServer.renderToString(<App values={values}/>), values)));
+app.get('/*', (req, res) => res.send(layout(ReactDOMServer.renderToString(<App values={values} />), values)));
 
 app.listen(3000);
