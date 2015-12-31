@@ -1,6 +1,9 @@
 {
   "name": "visualize",
   "description": "The application that allows you to visualize your dataset in many different ways",
+  "version": "0.0.1",
+  "author": "Alexey Raspopov",
+  "repository": "alexeyraspopov/server-rendering",
   "scripts": {
     "start": "bash scripts/start.sh",
     "bundle": "bash scripts/bundle.sh",
