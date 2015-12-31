@@ -1,6 +1,6 @@
 # Visualize
 
-An example of React/Flux app with server-side rendering.
+The application that allows you to visualize your dataset in many different ways.
 
 ## Install & Run
 

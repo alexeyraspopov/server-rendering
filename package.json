@@ -1,5 +1,6 @@
 {
   "name": "visualize",
+  "description": "The application that allows you to visualize your dataset in many different ways",
   "scripts": {
     "start": "bash scripts/start.sh",
     "bundle": "bash scripts/bundle.sh",
