@@ -1,9 +1,10 @@
-import Dispatcher from 'lib/Dispatcher';
+import {dispatch} from 'lib/Dispatcher';
+import {CounterActionTypes as ActionTypes} from 'shared/FluxConstants';
 
 export function increment() {
-	Dispatcher.dispatch({type: 'COUNTER_INCREMENTED'});
+	dispatch({type: ActionTypes.COUNTER_INCREMENTED});
 }
 
 export function update(value) {
-	Dispatcher.dispatch({type: 'COUNTER_UPDATED', value});
+	dispatch({type: ActionTypes.COUNTER_UPDATED, value});
 }

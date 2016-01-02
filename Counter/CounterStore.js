@@ -1,5 +1,6 @@
 import ReduceStore from 'flux/lib/FluxReduceStore';
 import Dispatcher from 'lib/Dispatcher';
+import {CounterActionTypes as ActionTypes} from 'shared/FluxConstants';
 
 class CounterStore extends ReduceStore {
 	getInitialState() {
@@ -8,9 +9,9 @@ class CounterStore extends ReduceStore {
 
 	reduce(state, action) {
 		switch (action.type) {
-		case 'COUNTER_INCREMENTED':
+		case ActionTypes.COUNTER_INCREMENTED:
 			return state + 1;
-		case 'COUNTER_UPDATED':
+		case ActionTypes.COUNTER_UPDATED:
 			return action.value;
 		default:
 			return state;
